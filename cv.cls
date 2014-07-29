@@ -23,7 +23,11 @@
 }
 
 \newcommand{\name}[1]{
-  \centerline{\Huge{#1}}
+  \centerline{\Large{\textbf{#1}}}
+}
+
+\newcommand{\addressline}[1]{
+  \centerline{\small{\emph{#1}}}
 }
 
 \newcommand{\contact}[5]{
@@ -31,9 +35,10 @@
     {\Large} #4 \ {\Large} #5
 }
 
-\newcommand{\longcontact}[5]{
-    \center{#1 \hfill {\large\textperiodcentered} \hfill #2 \hfill {\large\textperiodcentered} \hfill #3}
-    \center{ {\Large} #4 \hfill {\Large} #5}
+\newcommand{\longcontact}[6]{
+    \center{#1 \hfill #4}\\
+    \center{#2 \hfill #5}\\
+    \center{#3 \hfill #6}
 }
 
 \newcommand{\workitems}[3]{
