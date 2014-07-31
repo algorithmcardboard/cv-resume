@@ -1,4 +1,5 @@
 \documentclass{cv}
+\usepackage{hyperref}
 \usepackage{enumitem}
  
 \begin{document}
@@ -41,26 +42,41 @@
 
 \section{Academic/Hobby Projects}
 \begin{description}[leftmargin=50pt,labelwidth=50pt]
-\item[infoquestgct.com] The official website of Infoquest 2010.  Infoquest is a National level technical symposium conducted by Computer Science \& Information Technology Association of Government College of Technology, Coimbatore.
+  \item[Gre Wordcards] Android application for helping my GRE Vocabulary preparation.
     \begin{itemize}[label={},leftmargin=10pt,topsep=0pt]
-      \item[--] Website developed using PHP\@
-      \item[--] asdf
+      \item[\textbf{--}] Github Url: \url{https://github.com/rajegannathan/custom-vocab-flashcards.git}
+      \item[\textbf{--}] It uses \textit{Wordnik Words API} to fetch Meaning, Usage, Etymology and Derivatives of any given word.
+      \item[\textbf{--}] Opens up in full screen to avoid any distraction from other notifications.  Uses big \& bold font for helping the student read easily.
+      \item[\textbf{--}] Uses double tap \& swipe gestures to go between words and is optimized for single hand usage (which is my majority use case).
+      \item[\textbf{--}] Uses background threads for fetching the details from API and cahces around 250 latest words added.
     \end{itemize}
-  \item[Online Judge] A judge similar to SPOJ for evaluating programs submitted for online programming contest.
+  \item[infoquestgct.com] The official website of Infoquest 2010.  
+    \begin{itemize}[label={},leftmargin=10pt,topsep=0pt]
+      \item[\textbf{--}] Infoquest is a National level technical symposium conducted by Computer Science \& Information Technology Association of Government College of Technology, Coimbatore.
+      \item[\textbf{--}] Designed \& Developed \textit{User authentication, Custom Captcha, Virtual Stock Market, Online quiz and Online Programming} modules in PHP\@
+      \item[\textbf{--}] Responsible for the whole backend design \& development.
+    \end{itemize}
+  \item[Online Judge] A judge similar to SPOJ\@
+    \begin{itemize}[label={},leftmargin=10pt,topsep=0pt]
+      \item[\textbf{--}] The judge was used for compiling programming solutions submitted for the Online Programming contest of Infoquest 2010.
+      \item[\textbf{--}] Supported soulutions in five languages. Perl, Java, C, C++, Ruby.
+      \item[\textbf{--}] Supported facility to set \textit{Memory, Process, File, CPU time} limits per question.
+      \item[\textbf{--}] Designed as three separate process which communicates using \textit{Unix Pipes}.  First module polls and downloads submitted programs.  Second module compiles the program with given run time limits and checks the output for correctness.  Thrid module uploads the result back to remote server for display in web interface.
+    \end{itemize}
   \item[Desktop Search] A realtime desktop search application for Fedora Linux.
+    \begin{itemize}[label={},leftmargin=10pt,topsep=0pt]
+      \item[\textbf{--}] A GUI application for linux developed entirely in C++.  The GUI was built with \textit{GTK tooklit}.
+      \item[\textbf{--}] The applicaiton indexes the whole file system as a \textit{n-ary tree}.
+      \item[\textbf{--}] It uses linux \textit{watch descriptors} to watch on any filesystem changes and updates the index.
+      \item[\textbf{--}] The application could match search terms which match more than \textit{200,000} entries in 2 seconds.  The index contained a total of 1 Million entries.
+    \end{itemize}
   \item[SMS Simulator] A LAN Chat application with mobile like interface and T9 dictionary.
+    \begin{itemize}[label={},leftmargin=10pt,topsep=0pt]
+      \item[\textbf{--}] The application mimics mobile networks by having a centralized server and a number of clients that communicate messages through the server using TCP\@
+      \item[\textbf{--}] Has a mobile like Tactile keyboard for input.  Supports auto-complete similar to T9 mobile keyboards.  Words can be added/removed to the dictionary.
+      \item[\textbf{--}] The dictionary is implemented using \textit{Trie} datastructure.
+      \item[\textbf{--}] Uses AWT for the UI and Java for the server side programming.
+    \end{itemize}
 \end{description}
 
-\datedsubsection{ABC Limited}{2008--Now}
-\workitems{Developed new product}
-{Improved productivity by 20\%}
-{Decreased costs by \$10,000}
-
-\section{Skills}
-
-\begin{tabular}{l l l l}
-C\# & T-SQL & Javascript & HTML \\
-XML & JSON & SOAP & REST
-\end{tabular}
- 
 \end{document}
