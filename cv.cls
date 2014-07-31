@@ -30,6 +30,10 @@
   \centerline{\small{\emph{#1}}}
 }
 
+\newcommand{\awardline}[2]{
+  \hangindent=1em \large{\textbf{#1}} \\{#2}
+}
+
 \newcommand{\contact}[5]{
     #1 {\large\textperiodcentered} #2 {\large\textperiodcentered} #3
     {\Large} #4 \ {\Large} #5
