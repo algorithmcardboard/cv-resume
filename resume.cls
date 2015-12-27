@@ -14,7 +14,7 @@
     [\titlerule]                 % Inserts a horizontal line after the heading
 
 \titleformat{\subsection}
-    {\large\scshape\raggedright}
+    {\large\raggedright}
     {}{0em}
     {}
 
