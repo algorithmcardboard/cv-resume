@@ -4,7 +4,7 @@
 \LoadClass{article}
 
 \RequirePackage{titlesec}
-\RequirePackage[a4paper, left=1in, right=1in, top=0.83in, bottom=0.8in]{geometry}
+\RequirePackage[a4paper, left=1in, right=1in, top=0.8in, bottom=0.8in]{geometry}
 
 \titleformat{\section}           % Customise the \section command
     {\Large\scshape\raggedright} % Make the \section headers large (\Large),
