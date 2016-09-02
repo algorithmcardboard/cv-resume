@@ -7,6 +7,7 @@
 
 \setlength{\parindent}{0pt}
 \setlist{nosep}
+\pagenumbering{gobble}
 
 \begin{document}
 {\small\begin{tabular}[c]{l}
@@ -17,8 +18,8 @@
         Anirudhan J. Rajagopalan
 \end{tabular}}\hfill%
 {\small\begin{tabular}[c]{r}
-        linkedin.com/rajegannathan \\
-        github.com/rajegannathan
+        \href{https://linkedin.com/in/rajegannathan}{linkedin.com/in/rajegannathan} \\
+        \href{https://github.com/rajegannathan}{github.com/rajegannathan}
 \end{tabular}}%
 
 
@@ -38,40 +39,47 @@
 \begin{tabular}{p{\dimexpr\linewidth-2\tabcolsep}}
     \textbf{\large{Work Experience}}\hfill Around 5 years \\
     \noindent\rule{\textwidth}{0.4pt}
-    \bfseries \large{Deep Learning} \\
-    \begin{enumerate}
+    \bfseries \large{Internship}\\
+    {\bfseries Eyenuk Inc, Los Angeles, CA\@.\hfill Jun 2016 --- Aug 2016} \\
+    \begin{itemize}
         \item Explored the classification of Diabetic Retinopathy with Residual Networks against VGG model.
-        \item Used Convolutional clustering with unlabeled data to improve classification accuracy on STL-10.
         \item Implemented VGG models for classification of 128$\times$128 lens shot images.
-        \item Used LSTM to train a language model on word level Penn Tree Bank dataset.
-    \end{enumerate}
+        \item Setup the scalable production AWS deployment using VPC, Route 53, ELB, ACM, and RDS\@.
+    \end{itemize}
 
     \bigskip
-    \bfseries \large{Machine Learning} \\
-    \begin{enumerate}
-        \item Amazon comments extractor
-        \item Grasp \& Lift EEG Detector
-        \item Live \& Kidney classifier
-        \item Exploratory analysis of Taxi mobility data
+    \bfseries \large{Deep Learning / Machine Learning} \\
+    \begin{itemize}
+        \item Used Convolutional clustering with unlabeled data to improve classification accuracy on STL-10.
+        \item Used LSTM to train a language model on word level Penn Tree Bank dataset.
+        \item Built a feature based reviews extractor for Amazon reviews.
+        \item Used \textbf{VLAD} feature representation for classifying EEG signals for Grasp \& Lift problem.
+        \item Classifying Liver \& Kidney cancer using unbalanced protein expression data. Accuracy --- 97\%.
         \item Built an award winning Company recommendation engine in Insideview Hackaton 2012. \textbf{(Java)}
-    \end{enumerate}
+    \end{itemize}
 
     \bigskip
     \bfseries \large{Software Engineering}\\
     \smallskip
-    {\bfseries Freelancing | Software Consultant, India\hfill May 2013 --- Jan 2015} \\
+    {\bfseries Freelancing/Full-stack Software Consultant, India\hfill May 2013 --- Jan 2015} \\
     \begin{itemize}
         \item Implemented the common sign-on page, branding workflows and modal framework for Vera.
-        \item Built Urblotter (app.urblotter.com) a betting website for FIFA 2014. \textbf{(ROR, Angularjs, Sidekiq)}.
+        \item Built Urblotter (app.urblotter.com) a betting website for FIFA 2014. \textbf{(ROR, Angularjs)}.
         \item Built a scrapper and admin app for `\textit{Today in History}' iphone app. --- \url{http://git.io/vZysq}
         \item Gre---flashcards: GRE preparation \textbf{android} app using Wordnik API\@. --- \url{http://git.io/vZ95e}
-        \item Built high performance responsive lightbox/slideshow with load more \& thumbstrips \textbf{(Angularjs)}.
-        \item Performance Optimizations --- Load time: \textasciitilde10 sec \( \rightarrow \) 1 sec.  
-        Asset size: \textasciitilde1.5Mb \( \rightarrow \) \textasciitilde600Kb.
+    \end{itemize}
+    \bigskip
+    \bfseries \enskip{} Quirl \\
+    \begin{itemize}
+        \item Performance Optimizations --- Load time: \textasciitilde10 sec \( \rightarrow \) 1 sec. Asset size: \textasciitilde1.5Mb \( \rightarrow \) \textasciitilde600Kb.
+        \item Built high performance responsive lightbox/slideshow with load more \& thumbstrips for Quirl.
         \item Built a rails like asset pipeline using \textbf{Grunt} and made the application production ready.
         \item Setup the application architecture \& development process. Mentored the development team.
-        \item F1circle.com is a bulletin board for professionals.
-        \item Built the complete application from scratch. \textbf{(ROR, Angularjs, Memcached, Redis, Mysql)}
+    \end{itemize}
+    \bigskip
+    \bfseries \enskip{} f1circle.com \\
+    \begin{itemize}
+        \item Built the complete application from scratch. \textbf{(ROR, Angularjs, Memcached, Redis)}
         \item Built Information extraction engine. It extracts name, place, \& price info from user's posts.
     \end{itemize}
 
